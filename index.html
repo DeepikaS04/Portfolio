@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="javascript" href="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -58,7 +59,9 @@
             <div class="home-text">
               <p>Hello, I'm</p>
               <h1>Deepika</h1>
-              <h2>Full Stack Developer</h2>
+              <!-- <p>a <span class="typed" data-typed-items="Frontend Developer, Machine Learning Developer,Software Developer"></span></p> -->
+              <p>a <span class="typing-text" > Frontend Developer</span>
+              </p>
               <a href="#about" class="btn link-item">More About Me</a>
               <a href="#portfolio" class="btn link-item">Portfolio</a>
             </div>
@@ -87,13 +90,7 @@
             </div>
             <div class="about-text">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                quam asperiores optio eius voluptas, quos et corporis
-                aspernatur! Minima odio eum reprehenderit minus exercitationem
-                ut quam nobis, pariatur deleniti perspiciatis fugiat qui
-                consectetur ex necessitatibus quo doloremque officiis vel
-                possimus alias animi nulla illo. Fugiat totam nobis ea placeat
-                est!
+                Aspiring computer programmer with a BTech degree in Computer Science and with a keen interest in machine learning and data science. With a moderate level knowledge in the field of computer science, I am seeking an entry-level programmer or coder position to continue expanding my knowledge of different languages and systems.
               </p>
               <h3>Skills</h3>
               <div class="skills">
@@ -362,6 +359,14 @@
      
     <!-- Portfolio item details popup end -->
     <script type="module" src="script.js">
+
+  
+var type = new Typed('.typing-text',{
+    strings : ['web designer, front end developer, machine learning enthusiast, software developer'],
+    typeSpeed : 120,
+    loop: true
+})
+    
       
     </script>
   </body>

@@ -1,3 +1,10 @@
+{/* <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>">
+
+var type = new Typed('.typing-text',{
+    strings : ['web designer, front end developer, machine learning enthusiast, software developer'],
+    typeSpeed : 120,
+    loop: true
+}) */}
 // Toggle Navbar
 
 const navToggler = document.querySelector(".nav-toggler");
